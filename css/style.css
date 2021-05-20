@@ -322,6 +322,8 @@ body {
 
 .pego-columns img {
 	float: left;
+	max-height: 500px;
+	width: 100%;
 }
 
 .pego-columns6 {
@@ -336,6 +338,14 @@ body {
 	width: 100%;
 	height: 100%;
 	display: block;
+	transition: all 200ms ease;
+}
+.col-link:hover {
+	transform: scale(1.05);
+	
+}
+.col-link:active {
+	transform: scale(0.95);
 }
 
 .colorsheme1 {
@@ -2985,4 +2995,9 @@ ul#filters {
 	-moz-transition: .1s ease-in;  
 	-o-transition: .1s ease-in;  
 	transition: .1s ease-in; 
+}
+
+.work-text {
+	text-align: center;
+	padding: 20px 10px;
 }
