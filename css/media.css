@@ -7,7 +7,7 @@
 	.pego-columns, .page-vertical-alignment, .mapStyleClass { height: 221px; }
 	.home-element1 { top: -221px; }
 	.menu-wrapper ul.sf-menu > li > a { font-size: 15px; padding: 0 25px; }
-	div.contact-info3 { font-size: 60px; }
+	div.contact-info3 { font-size: 45px; }
 	h1.contact-form-title { font-size: 22px; }
 	h1.contact-form-title span { font-size: 24px; }
 	.wpcf7 textarea.wpcf7-form-control { padding: 15px 25px; height: 100px; }
@@ -63,7 +63,7 @@
 	.page-testimonails, .home-wrapper .home-element4, .home-wrapper .home-element5, .home-wrapper .home-element6  { height: auto; }
 	.mobile-menu-show { display: block; }
 	.menu-wrapper { display: none; }
-	.pego-columns img { float: none; }
+	.pego-columns img { float: none; max-width: 400px;}
 	.single-service-image { width: 100%; text-align: center; } 
 	h1.service-title, p.service-excerpt { text-align: center; }
 	.single-service { border-bottom: 1px solid #fafafa; margin-bottom: 30px; }

@@ -264,6 +264,7 @@ img {
 
 body {
 	background: url(../images/bg-image.jpg) no-repeat fixed;
+	background-size: cover;
 }
 
 .container-wrapper {
@@ -3092,7 +3093,8 @@ ul#filters {
 	position: fixed;
 	bottom: 30px;
 	right: 30px;
-	animation: 1.5s ease-in-out 2s normal none infinite running trambling-animation;
+	animation: 1.5s ease-in-out 5s normal none infinite running trambling-animation;
+	z-index: 200;
 }
 
 .popup__icon img:hover {
