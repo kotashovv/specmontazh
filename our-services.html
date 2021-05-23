@@ -61,13 +61,12 @@
         <div class="mobile-menu-wrapper">
             <div class="menu-main-navigation-container">
                 <ul id="menu-main-navigation-1" class="mobile-menu">
-                    <li class="menu-item"><a href="index.html">Главная</a>
-                    </li>
-                    <li class="menu-item"><a href="work.html">Галерея</a></li>
-                    <li class="menu-item"><a href="about-company.html">About</a></li>
-                    <li class="menu-item"><a href="our-services.html">О нас</a></li>
-                    <li class="menu-item current-menu-item"><a href="blog.html">Услуги</a></li>
-                    <li class="menu-item"><a href="contact-us.html">Отзывы</a></li>
+                    <li class="menu-item"><a href="index.html">Главная</a></li>
+                        <li class="menu-item"><a href="work.html">Галерея</a></li>
+                        <li class="menu-item"><a href="about-company.html">О нас</a></li>
+                        <li class="menu-item current-menu-item"><a href="our-services.html">Услуги</a></li>
+                        <li class="menu-item"><a href="blog.html">Отзывы</a></li>
+                        <li class="menu-item"><a href="contact-us.html">Контакты</a></li>
                 </ul>
             </div>
         </div>
@@ -160,6 +159,48 @@
         <div class="footer">
             <p><span>©</span> <a href="#">СпецМонтаж</a> </p>
         </div>
+        <div class="popup__icon">
+            <a href="#popup"></a> <img class="popup-link" style="width: 75px; height: 75px;" src="png-clipart-graphics-computer-icons-telephone-iphone-computer-icons-telephone.png" alt="">
+         </div>
+         <div id="popup" class="popup">
+             <div class="popup__body">
+                 <div class="popup__content">
+                     <a class="popup__close close-popup">Х</a>
+                     <div class="popup__title">Закажите обратный звонок</div>
+                     <form action="#">
+                         <input type="text" placeholder="Имя">
+                         <input type="tel" name="#" placeholder="Телефон">
+                         <button type="submit">Заказать звонок</button>
+                     </form>
+                 </div>
+             </div>
+         </div>
+        <!-- end container-wrapper -->
+       <script>
+            const popupLink = document.querySelector('.popup-link');
+            const popup = document.querySelector('.popup');
+            const popupClose = document.querySelector('.close-popup');
+            const popupBody = document.querySelector('.popup__body');
+    
+                function OpenPopup() {
+                    popup.classList.add('open');
+                };
+    
+                function ClosePopup() {
+                    popup.classList.remove('open');
+                };
+    
+                popupLink.addEventListener('click', function(e){
+                    OpenPopup();
+                });
+    
+                popupClose.addEventListener('click', function(e) {
+                    ClosePopup();
+                });
+    
+                
+                
+       </script>
     </div>
     <!-- end container-wrapper -->
 
