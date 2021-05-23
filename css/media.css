@@ -42,6 +42,9 @@
 	.single-service2-big { width: 33.3334%; margin-bottom: 20px; }
 	.single-service2-small-items { width: 100%; }
 	.single-service2-small { width: 50%; }
+	#our_works {
+		max-height: 310px;
+	}
 }
 
 
@@ -97,6 +100,9 @@
 	.single-service2-small { width: 50%; }
 	.portfolio-sh-item { width: 50%; }
 	h1.portfolio-sh-items-header-title { margin-right: 40px; }
+	#welcome-gif {
+		display: none;
+	}
 }
 
 @media only screen and (max-width: 767px) { 
@@ -153,4 +159,7 @@
 	.single-post-detail-item {   width: 100% }
 	 .quote-with-url-button1, .quote-with-url-button2 { display: block; width: 100%; text-align: center; float: left;  margin-bottom: 15px; }
 	.portfolio-sh-item { width: 100%; }
+	h1.about-title {
+		font-size: 30px;
+	}
 }
